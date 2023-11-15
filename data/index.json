@@ -58,22 +58,6 @@
       "description": "CodeBuilder is a platform specifically developed for the Hack Your Future community. It serves as a central hub for students and mentors in Hack Your Future to share code snippets or inspiration with each other. Instead of relying on other options like sending code via Slack, committing and pushing to GitHub, or using existing code sharing platforms like Codepen or Codesandbox, CodeBuilder provides a dedicated space for seamless code sharing and collaboration.",
       "link": "https://github.com/HackYourFuture-CPH/CodeBuilder",
       "demo": "https://codebuilder.dev"
-    },
-    {
-      "id": 2,
-      "src": "./img/codebulider.png",
-      "title": "MealSharing",
-      "description": "Lorem Lorem Lorem Lorem Lorem",
-      "link": "https://github.com/MK-KARZOUN/meal-sharing",
-      "demo": ""
-    },
-    {
-      "id": 3,
-      "src": "./img/codebulider.png",
-      "title": "Login Auth",
-      "description": "Lorem Lorem Lorem Lorem Lorem",
-      "link": "https://github.com/MK-KARZOUN/login-system",
-      "demo": ""
     }
   ],
 
