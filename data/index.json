@@ -1,0 +1,97 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "src": "./img/hl.png",
+      "title": "HTML",
+      "rate": 5
+    },
+    {
+      "id": 2,
+      "src": "./img/cs.png",
+      "title": "CSS",
+      "rate": 4
+    },
+    {
+      "id": 3,
+      "src": "./img/js.png",
+      "title": "JavaScript",
+      "rate": 4
+    },
+    {
+      "id": 4,
+      "src": "./img/ts.png",
+      "title": "TypeScript",
+      "rate": 4
+    },
+    {
+      "id": 5,
+      "src": "./img/rt.png",
+      "title": "React JS",
+      "rate": 5
+    },
+    {
+      "id": 6,
+      "src": "./img/ne.png",
+      "title": "Node JS",
+      "rate": 4
+    },
+    {
+      "id": 7,
+      "src": "./img/ms.png",
+      "title": "MySQL",
+      "rate": 3
+    },
+    {
+      "id": 8,
+      "src": "./img/mb.png",
+      "title": "mongoDB",
+      "rate": 4
+    }
+  ],
+
+  "Projects": [
+    {
+      "id": 1,
+      "src": "./img/codebulider.png",
+      "title": "CodeBuilder",
+      "description": "CodeBuilder is a platform specifically developed for the Hack Your Future community. It serves as a central hub for students and mentors in Hack Your Future to share code snippets or inspiration with each other. Instead of relying on other options like sending code via Slack, committing and pushing to GitHub, or using existing code sharing platforms like Codepen or Codesandbox, CodeBuilder provides a dedicated space for seamless code sharing and collaboration.",
+      "link": "https://github.com/HackYourFuture-CPH/CodeBuilder",
+      "demo": "https://codebuilder.dev"
+    },
+    {
+      "id": 2,
+      "src": "./img/codebulider.png",
+      "title": "MealSharing",
+      "description": "Lorem Lorem Lorem Lorem Lorem",
+      "link": "https://github.com/MK-KARZOUN/meal-sharing",
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "src": "./img/codebulider.png",
+      "title": "Login Auth",
+      "description": "Lorem Lorem Lorem Lorem Lorem",
+      "link": "https://github.com/MK-KARZOUN/login-system",
+      "demo": ""
+    }
+  ],
+
+  "contact": [
+    {
+      "id": 2,
+      "src": "./img/github.png",
+      "link": "https://github.com/MK-KARZOUN"
+    },
+    {
+      "id": 1,
+      "src": "./img/linkedin.png",
+      "link": "https://www.linkedin.com/in/malek-karzoun-a3349b255/"
+    },
+    {
+      "id": 3,
+      "src": "./img/instagram.png",
+      "link": "#"
+    }
+  ]
+}
