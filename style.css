@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #f5f5f55c;
+}
+
 body {
+  margin: auto;
+  max-width: 1200px;
   background-color: var(--bg-shade);
+  box-shadow: -1px 12px 12px 5px rgba(0, 0, 0, 0.2);
 }
 
 /********************************************************/
@@ -44,10 +51,7 @@ h3 {
 /* Paragraphs text large medium small */
 .text-lg {
   color: var(--darkblue);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400px;
-  line-height: 27px;
+  font-family: monospace;
 }
 
 .text-md {
@@ -104,6 +108,11 @@ h3 {
   line-height: 77px;
 }
 
+.link {
+  text-decoration: none;
+  color: var(--second--primary);
+}
+
 /********************************************************/
 
 /* Navbar Section */
@@ -113,6 +122,7 @@ h3 {
   padding: 0 100px;
   background-color: var(--White);
   width: 100%;
+  max-width: 1200px;
   position: fixed;
   top: 0;
 }
@@ -151,6 +161,7 @@ h3 {
 .sidebar-content-item {
   height: 60px;
   list-style: none;
+  margin: 5px 0;
 }
 
 .sidebar-content-item > a {
@@ -214,6 +225,10 @@ h3 {
   width: 75%;
 }
 
+.section-title {
+  font-size: 24px;
+}
+
 .hero-section-content {
   display: flex;
   flex-direction: column;
@@ -232,17 +247,13 @@ h3 {
   margin-bottom: 10px;
 }
 
-.hero-section-img {
-  display: flex;
-  justify-content: center;
-}
-
 .hero-section-img > img {
   border-top-right-radius: 20rem 30rem;
   border-top-left-radius: 1rem 1rem;
   border-bottom-left-radius: 20rem 30rem;
   border-bottom-right-radius: 1rem 1rem;
-  width: 100%;
+  max-width: 100%;
+  width: 50rem;
 }
 
 /********************************************************/
@@ -259,7 +270,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   gap: 25px;
-  width: 100%;
+  flex: 1;
 }
 
 .about-section-content {
@@ -276,9 +287,7 @@ h3 {
 }
 
 .about-section-img {
-  display: flex;
-  justify-content: center;
-  width: 50%;
+  flex: 1;
 }
 
 .about-section-img > img {
@@ -286,7 +295,8 @@ h3 {
   border-top-left-radius: 1rem 1rem;
   border-bottom-left-radius: 20rem 30rem;
   border-bottom-right-radius: 1rem 1rem;
-  width: 100%;
+  max-width: 100%;
+  width: 50rem;
 }
 
 /********************************************************/
